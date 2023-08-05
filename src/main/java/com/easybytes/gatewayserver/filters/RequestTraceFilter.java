@@ -1,3 +1,4 @@
+/*
 package com.easybytes.gatewayserver.filters;
 
 import org.slf4j.Logger;
@@ -47,4 +48,4 @@ public class RequestTraceFilter implements GlobalFilter {
         return java.util.UUID.randomUUID().toString();
     }
 
-}
+}*/

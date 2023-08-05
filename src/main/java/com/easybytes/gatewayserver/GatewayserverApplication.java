@@ -16,15 +16,15 @@ public class GatewayserverApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(GatewayserverApplication.class, args);
 	}
-	@Autowired
+	/*@Autowired
 	private TokenRelayGatewayFilterFactory filterFactory;
+*/
 
 
 
 
 
-
-	@Bean
+	/*@Bean
 	public RouteLocator myRoutes(RouteLocatorBuilder builder) {
 		return builder.routes()
 				.route(p -> p
@@ -45,7 +45,7 @@ public class GatewayserverApplication {
 								.rewritePath("/eazybank/cards/(?<segment>.*)","/${segment}")
 								.removeRequestHeader("Cookie"))
 						.uri("lb://CARDS")).build();
-	}
+	}*/
 }
 
 
